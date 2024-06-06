@@ -1,0 +1,17 @@
+//To Check Max and Min Value of Data Types
+
+public class app1
+{
+    public static void main(String[]args)
+    {
+        int i = 20;
+        float j = 65234;
+        double k = 5698.2654;
+        System.out.println(i);
+        System.out.println(j);
+        System.out.println(k);
+        System.out.println(Integer.MAX_VALUE);
+        System.out.println(Float.MIN_VALUE);
+        System.out.println(Double.MIN_VALUE);        
+    }
+}

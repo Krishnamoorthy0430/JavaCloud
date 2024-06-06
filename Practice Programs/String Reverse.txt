@@ -1,0 +1,15 @@
+//String Reverse 
+import java.util.Scanner;
+public class App
+{
+    public static void main(String[]args)
+    {    
+        Scanner sc = new Scanner(System.in);
+        String stat = sc.nextLine();
+        StringBuilder l = new StringBuilder(stat);   
+        System.out.println(l);
+        System.out.println(l.reverse());
+
+    }
+
+}        

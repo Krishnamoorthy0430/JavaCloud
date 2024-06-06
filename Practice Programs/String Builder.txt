@@ -1,0 +1,13 @@
+// StringBuilder 
+import java.util.Scanner;
+public class App
+{
+    public static void main(String[]args)
+    {        
+        StringBuilder str = new StringBuilder("Hello");
+        System.out.println(str);
+        str.append(" King");
+        System.out.println(str);
+    }
+
+}        

@@ -1,0 +1,39 @@
+// Problem 1 - Dice
+import java.util.Scanner;
+public class HelloWorld {
+    public static void main(String[] args) 
+    {
+        System.out.println("Enter your value 1 : ");
+        int a,b,sum;
+        Scanner sc = new Scanner(System.in);
+        a = sc.nextInt();
+        System.out.println("Enter your value 2 : ");
+        b = sc.nextInt();
+        if((a<0||a>6)&&(b<0||b>6))
+        {
+            System.out.println("Invalid value : "+a);
+            System.out.println("Invalid value : "+b);
+        }else
+        if (a<0||a>6||b<0||b>6)
+        {
+            if(a<0||a>6)
+            {
+                System.out.println("Invalid value : "+a);
+            }else
+            if(b<0||b>6)
+            {
+                System.out.println("Invalid value : "+b);
+            }
+        }else
+        if(a==b)
+        {
+            sum = (a+b)*2;
+            System.out.println("Your Point is : " +sum);
+        }else
+        {
+            sum = a+b;
+            System.out.println("Your Point is : " +sum);
+        }
+        
+    }
+}

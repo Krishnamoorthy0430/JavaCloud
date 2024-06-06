@@ -1,0 +1,19 @@
+// getting different types of Data types
+import java.util.Scanner;
+
+public class loops
+{
+    public static void main(String[]args)
+    {
+        int mark;
+        float pmark;
+        double percent;     
+        Scanner m = new Scanner(System.in);
+        mark = m.nextInt(); 
+        pmark = m.nextFloat();        
+        percent = m.nextDouble();   
+        System.out.println("Entered Mark is : "+mark);        
+        System.out.println("Pass Mark is : "+pmark);
+        System.out.println("Percentage is : "+percent);
+    }
+}
