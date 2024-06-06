@@ -1,0 +1,10 @@
+//Ternary Operator
+public class App
+{
+
+    public static void main(String []args)
+    {
+        int i=51;
+        System.out.println((i>50)?"Pass":"Fail");
+    }
+}

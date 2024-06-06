@@ -1,0 +1,13 @@
+//Static will always run first in order
+public class App
+{
+    static 
+    {
+        System.out.println("This is static block");
+    }
+
+    public static void main(String []args)
+    {
+        System.out.println("Hello jag");
+    }
+}
